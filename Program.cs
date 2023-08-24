@@ -75,6 +75,13 @@ namespace Insert_ID__RandomNumber_FILE
         {
             Console.WriteLine("Please enter the max number you want:");
         }
+        /// <summary>
+        /// This method just calls the ending of the program, where the user will be able to run the program again, or close it. The paramters is needed to give
+        /// feed back to the user. I placed a $ in front of the string, so that we will be able to use variables in the output.
+        /// </summary>
+        /// <param name="rows"></param>
+        /// <param name="min"></param>
+        /// <param name="max"></param>
         static void end(int rows, int min, int max)
         {
             Console.WriteLine($"Your text docuemnt is now saved under your documents, with {rows} rows, min {min} number and max {max}");
