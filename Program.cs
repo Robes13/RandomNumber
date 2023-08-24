@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Insert_ID__RandomNumber_FILE
+namespace Insert_ID__RandomNumber_File
 {
     internal class Program
     {
